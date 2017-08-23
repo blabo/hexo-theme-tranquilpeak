@@ -16,6 +16,7 @@
 
     .sidebar-container {
         overflow: auto;
+        text-align: center;
     }
     // Author information
     .sidebar-profile {
@@ -46,7 +47,7 @@
             line-height: 45px;
 
             .sidebar-button-link {
-                color:   map-get($sidebar, color);
+                color:   darken(map-get($sidebar, color), 5);
                 display: block;
                 height:  100%;
 
