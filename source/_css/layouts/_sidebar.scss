@@ -162,7 +162,7 @@
 }
 
 // display author bio only on extra large screen
-@media #{$large-and-down} {
+@media #{$medium-only} {
     #sidebar .sidebar-profile-bio {
         display: none;
     }
